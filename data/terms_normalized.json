@@ -1,0 +1,84 @@
+{
+    "terms": [
+        {
+            "id": 1,
+            "term": "distribution",
+            "definitions": [
+                {
+                    "definition": "A (software) distribution is a package or collection of software that is bundled together for easy installation and use.",
+                    "source": "https://en.wikipedia.org/wiki/Software_distribution"
+                },
+                {
+                    "definition": "Software distribution is the process of delivering software and it is the asset that contains the data used in the process.",
+                    "source": "https://en.wikipedia.org/wiki/Software_distribution"
+                }
+            ],
+            "examples": [
+                2
+            ],
+            "see_also": [],
+            "area": "Software",
+            "notes": []
+        },
+        {
+            "id": 2,
+            "term": "Linux distribution",
+            "definitions": [
+                {
+                    "definition": "A Linux distribution is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system.",
+                    "source": "https://en.wikipedia.org/wiki/Linux_distribution"
+                }
+            ],
+            "examples": [],
+            "see_also": [
+                1,
+                3
+            ],
+            "area": "Operating Systems",
+            "notes": []
+        },
+        {
+            "id": 3,
+            "term": "Linux kernel",
+            "definitions": [
+                {
+                    "definition": "The Linux kernel is the core component of a Linux operating system, managing system resources and communication between hardware and software.",
+                    "source": "https://en.wikipedia.org/wiki/Linux_kernel"
+                }
+            ],
+            "examples": [],
+            "see_also": [
+                2
+            ],
+            "area": "Operating Systems",
+            "notes": []
+        },
+        {
+            "id": 4,
+            "term": "concurrency",
+            "definitions": [
+                {
+                    "definition": "Concurrency in operating systems refers to the capability of an OS to handle more than one task or process at the same time, thereby enhancing efficiency and responsiveness.",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/concurrency-in-operating-system/"
+                },
+                {
+                    "definition": "More than one program may run simultaneously on shared resources of the system, such as CPU, memory, and so on. ",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/concurrency-in-operating-system/"
+                }
+            ],
+            "notes": [
+                {
+                    "note": "Concurrency is often implemented through multi-threading and multi-processing techniques.",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/concurrency-in-operating-system/"
+                },
+                {
+                    "note": "Good concurrency handling is crucial for deadlock situations, race conditions, and usually also for uninterrupted execution of tasks.",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/concurrency-in-operating-system/"
+                }
+            ],
+            "examples": [],
+            "see_also": [],
+            "area": "Computer Science"
+        }
+    ]
+}
