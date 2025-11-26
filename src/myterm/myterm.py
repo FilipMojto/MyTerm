@@ -115,9 +115,18 @@ def main():
         for defn in t["definitions"]:
             print(f"  - {defn.get('definition')} (Source: {defn.get('source')})")
         print(f"Examples: {t.get('examples', [])}")
-        print(f"See also: {t.get('see_also', [])}")
+        # print(f"See also: {t.get('see_also', [])}")
+        print("See also:")
+        for sa in t.get("see_also", []):
+            if isinstance(sa, int) or (isinstance(sa, str) and sa.isnumeric()):
+                # here i need to find term by id
+                sa_term = next((term for term in terms if term["id"] == sa), None)
+                print(f"{sa_term['term'] if sa_term else 'Unknown Term'}", end=", ")
+        print()  # newline after see also list
         if args.full_print:
-            print(f"Notes: {t.get('notes', [])}")
+            print(f"Notes:")
+            for note in t.get("notes", []):
+                print(f"  - {note.get('note')} (Source: {note.get('source')})")
     
     if areas is not None:
         print("\nUnique Areas:")

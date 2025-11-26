@@ -29,13 +29,22 @@
                     "source": "https://en.wikipedia.org/wiki/Linux_distribution"
                 }
             ],
-            "examples": [],
+            "examples": ["Ubuntu", "Fedora", "Debian"],
             "see_also": [
                 1,
                 3
             ],
             "area": "Operating Systems",
-            "notes": []
+            "notes": [
+                {
+                    "note": "Key components of a Linux distribution include the Linux kernel, GNU tools and libraries, a package management system, and additional software applications.",
+                    "source": "https://linuxsimply.com/distribution-in-linux/"
+                },
+                {
+                    "note": "Each distribution is tailored for specific use cases, such as personal computing, server management, or software development.",
+                    "source": "https://www.geeksforgeeks.org/linux-unix/what-are-linux-distributions/"
+                }
+            ]
         },
         {
             "id": 3,
@@ -83,6 +92,39 @@
             "examples": [],
             "see_also": [],
             "area": "Computer Science"
+        },
+        {
+            "id": 5,
+            "term": "kernel",
+            "definitions": [
+                {
+                    "definition": "A kernel is the core part of an operating system. It acts as a bridge between software applications and the hardware of a computer.",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/"
+                }
+            ],
+            "notes": [
+                {
+                    "note": "It handles tasks like running programs, accessing files and connecting to devices like printers and keyboards",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/"
+                }
+            ],
+            "examples": [],
+            "see_also": [6],
+            "area": "Operating Systems"
+        },
+        {
+            "id": 6,
+            "term": "operating system",
+            "definitions": [
+                {
+                    "definition": "An Operating System includes the kernel as its core, but also provides a user interface, file system management, network services and various utility applications that allow users to interact with the system",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/",
+                }
+            ],
+            "notes": [],
+            "examples": ["Windows", "macOS", "Linux"],
+            "see_also": [5],
+            "area": "Operating Systems"
         }
     ]
 }
