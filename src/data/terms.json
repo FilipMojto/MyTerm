@@ -118,7 +118,7 @@
             "definitions": [
                 {
                     "definition": "An Operating System includes the kernel as its core, but also provides a user interface, file system management, network services and various utility applications that allow users to interact with the system",
-                    "source": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/",
+                    "source": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/"
                 }
             ],
             "notes": [],
